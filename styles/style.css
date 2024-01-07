@@ -1,0 +1,88 @@
+/* ----- Google Font Links ------ */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* ----- Common CSS ------ */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+/* ----- Header Section ------ */
+#banner{
+    width: 100%;
+    padding: 50px 0 120px 0;
+}
+.banner_container{
+    max-width: 1320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: url('../images/bannar.png'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_overley{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    padding: 177px 344px;
+}
+.banner_text h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.banner_text h1{
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    line-height: 95px;
+    color: #fff;
+    text-align: center;
+}
+/* ---- Discount Section ----- */
+#discount{
+    width: 100%;
+    padding-bottom: 120px;
+}
+.discount_container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.discount_text h2{
+    font-size: 88px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FF0000;
+    text-align: center;
+}
+.discount_text h6{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #FF0000;
+    text-align: center;
+    margin: 48px 0 16px 0;
+}
+.discount_text h4{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.discount_img {
+    width: 800px;
+    margin: 0 auto;
+}
