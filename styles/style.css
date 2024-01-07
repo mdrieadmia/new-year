@@ -136,6 +136,7 @@ a{
     font-size: 20px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
     color: #fff;
     cursor: pointer;
     border: 2px solid transparent;
@@ -146,4 +147,32 @@ a{
     background-color: transparent;
     border: 2px solid #FF0000;
     transform: scale(1.05);
+}
+/* ----- Event Section ------ */
+#event{
+    width: 100%;
+    margin-bottom: 120px;
+}
+.event_container{
+    max-width: 1320px;
+    padding: 110px 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 0 auto;
+}
+.event_text{
+    text-align: center;
+}
+.event_text h3{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 56px;
+    color: #070211;
+}
+.event_text h3 .important{
+    color: #FF0000;
+}
+.event_text .btn{
+    margin-top: 50px;
 }
