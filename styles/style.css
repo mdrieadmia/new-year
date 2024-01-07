@@ -313,7 +313,7 @@ a{
 /* -----Portfolio Section----- */
 #portfolio{
     width: 100%;
-    padding: 120px;
+    padding-bottom: 120px;
 }
 .portfolio_container{
     max-width: 1320px;
@@ -345,6 +345,70 @@ a{
 .portfolio_img{
     max-width: 1320px;
     display: flex;
-    gap:24px;
+    gap:23px;
     flex-wrap: wrap;
+}
+/* -------Newsletter Section------- */
+#newsletter{
+    width: 100%;
+    margin-bottom: 120px;
+}
+.newsletter_container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 80px 220px;
+    background: #ff00000d;
+    border-radius: 16px;
+    text-align: center;
+}
+.newsletter_text h3{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    margin-top: 30px;
+}
+.newsletter_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 32px;
+    color: #07021199;
+    margin:30px 0 50px 0;
+}
+.newsletter_form form {
+    display: flex;
+    justify-content: center;
+}
+.newsletter_form form input{
+    width: 60%;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #0702114e;
+
+}
+.newsletter_form form input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #0702114e;
+}
+.subscribe_btn{
+    padding: 23px 30px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.subscribe_btn:hover{
+    background: #a30101;
 }
