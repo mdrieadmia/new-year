@@ -310,3 +310,41 @@ a{
     left: 0;
     z-index: 7;
 }
+/* -----Portfolio Section----- */
+#portfolio{
+    width: 100%;
+    padding: 120px;
+}
+.portfolio_container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.portfolio_text h6{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+.portfolio_text h2{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    margin: 16px 0 25px 0;
+}
+.portfolio_text p{
+    max-width: 900px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 32px;
+    color: #07021199;
+    margin-bottom:50px;
+}
+.portfolio_img{
+    max-width: 1320px;
+    display: flex;
+    gap:24px;
+    flex-wrap: wrap;
+}
