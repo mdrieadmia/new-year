@@ -148,6 +148,9 @@ a{
     border: 2px solid #FF0000;
     transform: scale(1.05);
 }
+.welcome_img img{
+    width: 350px;
+}
 /* ----- Event Section ------ */
 #event{
     width: 100%;
