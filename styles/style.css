@@ -176,3 +176,66 @@ a{
 .event_text .btn{
     margin-top: 50px;
 }
+/* ----- Offer Section ----- */
+#offer{
+    width: 100%;
+    padding-bottom: 120px;
+}
+.offer_container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.offer_content_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer_text{
+    width: 380px;
+}
+.offer_item .offer_text h5{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+.offer_item .offer_text h3{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    margin: 15px 0 22px 0;
+}
+.offer_item .offer_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 32px;
+    color: #07021199;
+    margin: 15px 0 22px 0;
+}
+.offer_item .offer_img{
+    height: 460px;
+    width: 460px;
+    border-radius: 50%;
+    border: 15px solid #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 120px 0 70px;
+}
+.year_text h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FF0000;
+}
+.year_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 32px;
+    color: #07021199;
+    margin: 15px 0 40px 0;
+}
