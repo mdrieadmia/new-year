@@ -412,3 +412,57 @@ a{
 .subscribe_btn:hover{
     background: #a30101;
 }
+/* ------Footer Section------ */
+footer{
+    width: 100%;
+    background: #000 ;
+}
+.footer_container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.footer_text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer_text .text_left a span{
+    display: block;
+}
+.text_right a , .text_left a,
+.copywrite_text p, .copywrite_text a{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    color: #fff;
+    transition: 0.2s all linear;
+}
+.text_right a:hover,
+.copywrite_text a:hover{
+    color: #FF0000;
+}
+.social_icons{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social_icons a img{
+    width: 40px ;
+    transition: 0.2s all linear;
+}
+.social_icons a img:hover{
+    transform: scale(1.2);
+}
+.copywrite_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer_container hr{
+    opacity: 20%;
+}
